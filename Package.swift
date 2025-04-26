@@ -13,7 +13,7 @@ let package = Package(
             targets: ["SearchModule"]),
     ],
     dependencies: [
-        .package(path: "../CoreModule")
+        .package(url: "https://github.com/diki-haryadi/GGameCatalogCoreModule.git", branch: "main")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
